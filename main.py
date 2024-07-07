@@ -51,5 +51,9 @@ my_plot(b_x, b_y)
 my_plot(c_x, c_y)
 my_plot(d_x, d_y)
 
+plot.plot(np.random.uniform(0, 10, 10), np.random.uniform(0, 10, 10), color='red', marker='x', ls='', markersize=10)
+
+
+
 plot.show()
 
