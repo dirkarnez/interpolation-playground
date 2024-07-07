@@ -51,9 +51,11 @@ my_plot(b_x, b_y)
 my_plot(c_x, c_y)
 my_plot(d_x, d_y)
 
-plot.plot(np.random.uniform(0, 10, 10), np.random.uniform(0, 10, 10), color='red', marker='x', ls='', markersize=10)
+a, step = np.linspace(1, 3, 4, retstep=True)
+print(a)
+print(1 + (step * 2))
 
+print(CubicSpline(a_x, a_y)(np.array(5.2)))
 
 
 plot.show()
-
